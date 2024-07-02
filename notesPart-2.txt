@@ -1,0 +1,17 @@
+HTML collection and Node Collection are not arrays, but they cam be converted into arrays and can be used further
+
+Attributes get overrided
+
+innerText = text that are visible 
+textContent = All the text whether any style is applied but it will give alll the content
+
+innerHTML = =it will also  return the HTML inside the content
+
+In nodelist we have to say and access it using array brackets []
+
+
+Nodelist doesnt has map functions bcoz it is not array but we can inspect and go in broser and click on prototyoe and see the properties associated with nodelist(like it has forEach loop)
+
+But in HTML collection there is no option for looping
+
+We can convert the HTML collection to array like -> Array.from(HTML collection name )
