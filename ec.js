@@ -15,6 +15,22 @@ Execution Context has two phases:
 - In creation phase, memory is set up for all the variables and functions 
 - In execution phase, code is executed line by line
 
+- In EC functions are stored as whole and variables are stored as undefined in the memory
+- return statement returns the control to the calling function
+- EC is deleted from the stack once the function is executed
+- JS is a garbage collected language
+- As soon as the JS program runs a global execution context is created 
+
+
+Call Stack: 
+- Call Stack is a data structure in JS which is used to keep track of the execution context(maintains the order of execution of functions)
+- It follows the LIFO principle (Last In First Out)
+- In callstack at the bottom of stack we have the global execution context
+- In callstack at the top of stack we have the current execution context
+- current execution context is deleted from the stack once the function is executed
+
+
+
 
 */
 
